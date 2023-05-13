@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
-    <link rel="stylesheet" href="./sttle.css" />
+    <link rel="stylesheet" href="./style.css" />
     <link
       rel="icon"
       type="image/png"
@@ -24,23 +24,27 @@
       <main class="container">
         <section class="perfil_informacoes">
           <img class="perfil_foto" src="./images/image-victor.jpg" />
-          <h2 class="perfil_nome">Victor Crest</h2>
-          <p class="perfil_idade">26</p>
+          <div class="perfil_usuario-dados">
+            <h2 class="perfil_nome">Victor Crest</h2>
+            <p class="perfil_idade">26</p>
+          </div>
           <p class="perfil_cidade">London</p>
         </section>
         <div class="linha"></div>
-        <div class="box_seguidor">
-          <h2 class="statics_numero">80K</h2>
-          <p class="statics_label">Followers</p>
-        </div>
-        <div class="box_likes">
-          <h2 class="statics_numero">803K</h2>
-          <p class="statics_label">Likes</p>
-        </div>
-        <div class="box_photos">
-          <h2 class="statics_numero">1.4K</h2>
-          <p class="statics_label">Photos</p>
-        </div>
+        <section class="statics_box">
+          <div class="box">
+            <h2 class="statics_numero">80K</h2>
+            <p class="statics_label">Followers</p>
+          </div>
+          <div class="box">
+            <h2 class="statics_numero">803K</h2>
+            <p class="statics_label">Likes</p>
+          </div>
+          <div class="box">
+            <h2 class="statics_numero">1.4K</h2>
+            <p class="statics_label">Photos</p>
+          </div>
+        </section>
       </main>
     </div>
   </body>
