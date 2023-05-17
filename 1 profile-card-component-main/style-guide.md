@@ -1,4 +1,4 @@
-# Front-end Style Guide
+****# Front-end Style Guide
 
 ## Layout
 
@@ -11,13 +11,16 @@ The designs were created to the following widths:
 
 ### Primary
 
-Dark cyan: hsl(185, 75%, 39%)
+Dark cyan: h
+sl(185, 75%, 39%)
 Very dark desaturated blue: hsl(229, 23%, 23%)
-Dark grayish blue: hsl(227, 10%, 46%)
+Dark grayish blue: 
+hsl(227, 10%, 46%)
 
 ### Neutral
 
-Dark gray: hsl(0, 0%, 59%)
+Dark gray:
+ hsl(0, 0%, 59%)
 
 ## Typography
 
