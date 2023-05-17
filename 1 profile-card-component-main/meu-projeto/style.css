@@ -8,7 +8,6 @@
 body {
   font-family: 'Kumbh Sans', sans-serif;
   text-align: center;
-
 }
 
 .container_parent {
@@ -42,6 +41,11 @@ body {
   display: flex;
   align-items: center;
 }
+
+.perfil_idade {
+  font-weight: 700;
+}
+
 
 
 
