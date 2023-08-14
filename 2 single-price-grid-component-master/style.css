@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* MAIN CONFIG ================ */
+.container_pai {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  display: grid;
+  grid-template-areas:
+    "a a"
+    "b" "c";
+}
+
+.comunidade_cabecalho {
+  grid-area: "a a";
+}
