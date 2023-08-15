@@ -10,14 +10,36 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.container {
-  display: grid;
-  grid-template-areas:
-    "a a"
-    "b" "c";
+  background: hsl(204, 43%, 93%);
 }
 
+.container {
+  width: 800px;
+  height: 600px;
+  display: grid;
+  grid-template-rows: 0.8fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  padding: 3em;
+  background-color: #fff;
+}
+
+/* CABECALHO CONFIG ================ */
 .comunidade_cabecalho {
-  grid-area: "a a";
+  grid-column: 1/3;
+  display: flex;
+  gap: 2em;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* PREÇO CONFIG ================ */
+.setor_preco {
+  background-color: hsl(179, 62%, 43%);
+}
+
+/* SOBRE NÓS CONFIG ================ */
+.sobre_nos {
+  background-color: #4abebd;
 }
