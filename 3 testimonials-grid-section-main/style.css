@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
 }
-
+/* MAIN CONFIG ==================================================== */
 .container-pai {
   width: 100%;
   height: 100vh;
@@ -13,8 +13,32 @@
 }
 
 .container {
-  width: 1200px;
+  width: 1000px;
   height: 800px;
   display: grid;
-  grid-area: " a b c d " " e f g h ";
+  grid-template-areas:
+    " a a c d "
+    " e f f d";
 }
+
+.testemunho_daniel-box {
+  grid-area: a/a;
+}
+
+.testemunho_jonathan-box {
+  grid-area: c;
+}
+
+.testemunho_jaenette-box {
+  grid-area: e;
+}
+
+.testemunho_patrick-box {
+  grid-area: f/f;
+}
+
+.testemunho_kira-box {
+  grid-area: d/d;
+}
+
+/* MAIN CONFIG ==================================================== */
