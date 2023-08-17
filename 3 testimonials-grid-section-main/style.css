@@ -13,30 +13,36 @@
 }
 
 .container {
-  width: 1000px;
+  width: 1200px;
   height: 800px;
   display: grid;
   grid-template-areas:
     " a a c d "
-    " e f f d";
+    " e f f d ";
+  gap: 1em;
 }
 
+/* DANIEL-BOX  ==================================================== */
 .testemunho_daniel-box {
   grid-area: a/a;
 }
 
+/* JONATHAN-BOX  ==================================================== */
 .testemunho_jonathan-box {
   grid-area: c;
 }
 
+/* JAENETEE-BOX  ==================================================== */
 .testemunho_jaenette-box {
   grid-area: e;
 }
 
+/* PATRICK-BOX  ==================================================== */
 .testemunho_patrick-box {
   grid-area: f/f;
 }
 
+/* KIRA-BOX  ==================================================== */
 .testemunho_kira-box {
   grid-area: d/d;
 }
