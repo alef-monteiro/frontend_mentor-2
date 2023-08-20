@@ -15,38 +15,55 @@
 }
 
 .container {
-  width: 1400px;
-  height: 750px;
-  display: grid;
+  width: 1200px;
+  height: 500px;
   gap: 1em;
+  display: grid;
   grid-template-areas:
     " a a a c d "
     " e f f f d ";
 }
 
 .testemunho_box {
+  color: hsl(0, 0%, 100%);
   font-size: 13px;
   font-family: "Barlow Semi Condensed", sans-serif;
-  color: hsl(0, 0%, 100%);
-
+  padding: 20px;
   border-radius: 10px;
-  padding: 30px;
+}
+
+.titulo_testemunho {
+  margin-bottom: 1em;
+}
+
+.testemunho_texto {
+  color: hsl(0, 0%, 81%);
+  line-height: 1.5;
 }
 
 .testemunho_perfil {
   display: flex;
   align-items: center;
   justify-content: start;
+  margin-bottom: 1em;
 }
 
-.titulo_testemunho {
-  font-size: 25px;
+.testemunho_perfil {
+  gap: 1rem;
 }
 
-.testemunho_texto {
-  color: hsl(0, 0%, 81%);
-  line-height: 1.5;
-  font-size: 13px;
+.foto_autor {
+  width: 25px;
+  border-radius: 50px;
+}
+
+.perfil_dados {
+  font-weight: 700;
+}
+
+.verificado_perfil {
+  font-weight: 500;
+  color: hsl(0, 0%, 75%);
 }
 
 /* DANIEL-BOX  ==================================================== */
