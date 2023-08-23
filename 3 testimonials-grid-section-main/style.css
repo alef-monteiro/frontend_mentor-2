@@ -16,40 +16,30 @@
 
 .container {
   width: 1200px;
-  height: 500px;
-  gap: 1em;
+  height: 600px;
   display: grid;
   grid-template-areas:
-    " a a a c d "
-    " e f f f d ";
+    " a a c d "
+    " e f f d ";
+  gap: 1em;
+  font-size: 13px;
 }
 
 .testemunho_box {
   color: hsl(0, 0%, 100%);
-  font-size: 13px;
   font-family: "Barlow Semi Condensed", sans-serif;
-  padding: 20px;
   border-radius: 10px;
+  padding: 30px;
 }
 
-.titulo_testemunho {
-  margin-bottom: 1em;
-}
-
-.testemunho_texto {
-  color: hsl(0, 0%, 81%);
-  line-height: 1.5;
-}
-
+/* ->PERFIL CAIXA */
 .testemunho_perfil {
   display: flex;
   align-items: center;
   justify-content: start;
-  margin-bottom: 1em;
-}
-
-.testemunho_perfil {
   gap: 1rem;
+
+  margin-bottom: 10px;
 }
 
 .foto_autor {
@@ -57,13 +47,19 @@
   border-radius: 50px;
 }
 
-.perfil_dados {
-  font-weight: 700;
+.verificado_perfil {
+  color: hsl(0, 0%, 75%);
 }
 
-.verificado_perfil {
-  font-weight: 500;
-  color: hsl(0, 0%, 75%);
+/* ->TEXTO GERAL */
+.titulo_testemunho {
+  margin-bottom: 10px;
+}
+
+.testemunho_texto {
+  color: hsl(0, 0%, 81%);
+  line-height: 1.5;
+  font-size: 1rem;
 }
 
 /* DANIEL-BOX  ==================================================== */
